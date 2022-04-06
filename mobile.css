@@ -1,0 +1,98 @@
+html {
+    font-size: 100%;
+  }
+  
+  
+  
+  body {
+    background: rgb(255, 250, 229);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 250, 229, 1) 0%,
+      rgba(250, 233, 249, 1) 100%
+    );
+    color: darkgrey;
+    font-family: Lora, serif;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  h1 {
+    color: black;
+  }
+  
+  
+  
+  .left {
+    background-color: linen;
+    box-shadow: darkgrey 0px 2px 8px 0px;
+    float: right;
+    height: 100%;
+    margin-left: -1px;
+    min-width: 255px;
+    position: fixed;
+    width: 35%;
+  }
+  
+  .right {
+    float: right;
+    height: 180%;
+    position: relative;
+    width: 65%;
+  }
+  
+  .name {
+    bottom: 0;
+    height: 500px;
+    left: 0;
+    margin: auto;
+    position: center;
+    right: 0;
+    top: 0;
+    width: 85%;
+  }
+  
+  .img {
+    text-align: center;
+    height: 150px;
+    margin-top: 15%;
+    margin-bottom: 20%;
+    margin-left: 5%;
+    width: 300px;
+  }
+  
+  .name h1 {
+    text-align: center;
+  }
+  
+  .name h3{
+    text-align: center;
+  }
+  
+  .name p {
+    color: grey;
+    text-align: center;
+  }
+  
+  .inner {
+    padding: 3em;
+  }
+  
+  .inner p {
+    color: grey;
+  }
+  
+  .skill li:hover {
+    background: linen;
+  }
+  
+  li {
+    background: darkgrey;
+    color: ivory;
+    display: inline-block;
+    margin: 15px 15px 0 0;
+    padding: 10px;
+  }
+  
+  
+  
